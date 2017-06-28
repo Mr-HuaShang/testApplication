@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33cacb"
+    >
+
+    <TextView
+        android:clickable="true"
+        android:id="@+id/tv_select_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相册上传"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:id="@+id/tv_select_camera"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="拍照上传"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>
